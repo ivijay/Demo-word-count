@@ -54,5 +54,6 @@
 	<classpathentry kind="lib" path="/usr/local/hadoop/lib/slf4j-api-1.4.3.jar"/>
 	<classpathentry kind="lib" path="/usr/local/hadoop/lib/slf4j-log4j12-1.4.3.jar"/>
 	<classpathentry kind="lib" path="/usr/local/hadoop/lib/xmlenc-0.52.jar"/>
+	<classpathentry kind="lib" path="/home/vijay/workspace/unit test jars/mrunit-1.0.0-hadoop1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

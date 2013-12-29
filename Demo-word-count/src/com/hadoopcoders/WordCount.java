@@ -33,9 +33,9 @@ public class WordCount {
 		
 		job.setOutputFormatClass(TextOutputFormat.class);
 		
-		FileInputFormat.addInputPath(job, new Path("/home/vijay/workspace/WordCountExample/input.txt"));
-		FileOutputFormat.setOutputPath(job, new Path("/home/vijay/workspace/output/demo2"));
-//		FileOutputFormat.setOutputPath(job, new Path("hdfs//localhost:100001/user/vijay/wordcount/demo2"));
+		FileInputFormat.addInputPath(job, new Path(args[0]));
+		FileOutputFormat.setOutputPath(job, new Path(args[1]));
+		
 		System.out.println("program started");
 		job.waitForCompletion(true);
 
